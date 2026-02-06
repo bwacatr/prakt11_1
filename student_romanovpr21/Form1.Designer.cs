@@ -64,7 +64,13 @@ namespace student_romanovpr21
             // 
             // foodWeight_sel
             // 
+            this.foodWeight_sel.DecimalPlaces = 2;
             this.foodWeight_sel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.foodWeight_sel.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
             this.foodWeight_sel.Location = new System.Drawing.Point(428, 203);
             this.foodWeight_sel.Maximum = new decimal(new int[] {
             50,
@@ -132,7 +138,13 @@ namespace student_romanovpr21
             // 
             // weight_sel
             // 
+            this.weight_sel.DecimalPlaces = 2;
             this.weight_sel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.weight_sel.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
             this.weight_sel.Location = new System.Drawing.Point(273, 261);
             this.weight_sel.Maximum = new decimal(new int[] {
             150,
@@ -155,7 +167,13 @@ namespace student_romanovpr21
             // 
             // height_sel
             // 
+            this.height_sel.DecimalPlaces = 2;
             this.height_sel.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.height_sel.Increment = new decimal(new int[] {
+            1,
+            0,
+            0,
+            65536});
             this.height_sel.Location = new System.Drawing.Point(273, 203);
             this.height_sel.Maximum = new decimal(new int[] {
             210,
